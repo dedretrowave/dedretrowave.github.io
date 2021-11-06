@@ -192,6 +192,7 @@ body {
   font-size: 20px;
   margin-top: 7px;
   display: block;
+  text-align: center;
 }
 @media screen and (min-width: 576px) {
   .header-contact {
@@ -593,6 +594,9 @@ body {
   color: #FFFFFF;
   font-size: 33px;
   margin: 50px 0 40px;
+}
+.works-work__link {
+  text-decoration: underline;
 }
 .works-work-slider__track {
   max-width: 1700px;

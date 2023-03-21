@@ -331,7 +331,7 @@ body {
 .footer__body {
   height: 100%;
   width: 100%;
-  background-color: #342342;
+  background-color: rgb(52 35 66);
   padding: 40px 0 50px;
 }
 .footer__title {
@@ -403,7 +403,7 @@ body {
 .who-am-i__body {
   height: 100%;
   width: 100%;
-  background-color: #2F2239;
+  background-color: rgb(47 34 57);
 }
 .who-am-i__before-wave, .who-am-i__after-wave {
   min-width: 1922px;

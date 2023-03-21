@@ -320,16 +320,12 @@ body {
 .footer {
   position: relative;
 }
-.footer::before {
-  display: block;
-  content: "";
+.footer__wave {
   min-width: 1922px;
   min-height: 215px;
   position: relative;
   width: 100%;
   height: 20vw;
-  background-image: url("../img/footer-top-wave.svg");
-  background-size: cover;
   top: 0;
 }
 .footer__body {
@@ -409,23 +405,17 @@ body {
   width: 100%;
   background-color: #2F2239;
 }
-.who-am-i::before, .who-am-i::after {
-  display: block;
-  content: "";
+.who-am-i__before-wave, .who-am-i__after-wave {
   min-width: 1922px;
   min-height: 215px;
   position: relative;
   width: 100%;
   height: 20vw;
 }
-.who-am-i::before {
-  background-image: url("../img/who-am-i-top-wave.svg");
-  background-size: cover;
+.who-am-i__before-wave {
   top: 0;
 }
-.who-am-i::after {
-  background-image: url("../img/who-am-i-bottom-wave.svg");
-  background-size: cover;
+.who-am-i__after-wave {
   bottom: 0;
 }
 @media screen and (min-width: 768px) {
